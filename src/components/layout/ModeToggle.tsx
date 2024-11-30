@@ -6,17 +6,17 @@ const ModeToggleContainer = styled.div`
   background-color: #3f3f3f;
   border-radius: 25px;
   display: flex;
-  height: 30px;
+  height: 25px;
   justify-content: flex-start;
-  width: 55px;
+  width: 40px;
   padding: 2px 6px;
 `;
 
 const Circle = styled.div`
   background-color: white;
   border-radius: 50%;
-  height: 23px;
-  width: 23px;
+  height: 20px;
+  width: 20px;
 `;
 
 function ModeToggle() {

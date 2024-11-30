@@ -56,12 +56,12 @@ const PopupTitleInput = styled.input``;
 const ShortcutAddBtn = styled.button`
   background-color: #e0e0e0;
   border: none;
-  border-radius: 18px;
+  border-radius: 11px;
   cursor: pointer;
   font-size: 30px;
-  height: 50px;
+  height: 40px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  width: 50px;
+  width: 40px;
 
   &:hover {
     background-color: #3f3f3f;
@@ -74,12 +74,12 @@ const ShortcutAddBtn = styled.button`
 const ShortcutEditBtn = styled.button`
   background-color: white;
   border: none;
-  border-radius: 18px;
+  border-radius: 11px;
   cursor: pointer;
-  font-size: 30px;
-  height: 50px;
+  font-size: 25px;
+  height: 40px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  width: 50px;
+  width: 40px;
 
   &:hover {
     background-color: #3f3f3f;
@@ -109,12 +109,12 @@ const ShortcutItem = styled.li`
   background-color: #fff;
   border: none;
   /* border-radius: 50%; */
-  border-radius: 15px;
+  border-radius: 11px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   display: flex;
-  height: 50px;
+  height: 40px;
   justify-content: center;
-  width: 50px;
+  width: 40px;
 
   &:hover {
     border-radius: 50%;
@@ -127,13 +127,13 @@ const ShortcutItemLink = styled(Link)`
   color: #3f3f3f;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  height: 50px;
+  height: 40px;
   justify-content: center;
   text-decoration: none;
-  width: 50px;
+  width: 40px;
 
   span {
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 700;
   }
 
@@ -156,7 +156,7 @@ const TitlePopup = styled.div`
   height: 20px;
   padding: 5px 10px;
   position: absolute;
-  left: 72px;
+  left: 58px;
 `;
 
 const BtnContainer = styled.div`
