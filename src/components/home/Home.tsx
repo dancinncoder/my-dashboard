@@ -1,12 +1,21 @@
 import React from "react";
+import Weather from "./Weather";
+import Time from "./Time";
+import { styled } from "styled-components";
+
+const HomeContainer = styled.div`
+  display: flex;
+  gap: 40px;
+  padding: 30px;
+`;
 
 function Home() {
   return (
-    <div>
-      <div>Weather</div>
-      <div>18:10</div>
+    <HomeContainer>
+      <Weather />
+      <Time />
       <div>TodoList</div>
-    </div>
+    </HomeContainer>
   );
 }
 
