@@ -21,7 +21,7 @@ const MemoContainer = styled.div`
   display: flex;
   flex-direction: column;
   height: 150px;
-  padding: 25px;
+  padding: 25px 20px;
   position: relative;
   width: 90px;
 
@@ -84,6 +84,9 @@ const SavedMemo = styled.p`
   padding: 0;
   width: 100%;
   white-space: pre-wrap;
+  overflow-y: scroll;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
 `;
 
 const Form = styled.form`
