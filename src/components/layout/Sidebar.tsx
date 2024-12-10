@@ -14,7 +14,6 @@ const SidebarContainer = styled.div`
   position: relative;
   top: 0;
   padding: 30px 10px;
-  width: 40px;
 `;
 
 const Line = styled.div`
@@ -43,9 +42,7 @@ export default function Sidebar() {
       <Nav>
         <Shortcut />
       </Nav>
-      <ToggleContainer>
-        <ModeToggle />
-      </ToggleContainer>
+      <ToggleContainer>{/* <ModeToggle /> */}</ToggleContainer>
     </SidebarContainer>
   );
 }

@@ -20,10 +20,9 @@ const MemoContainer = styled.div`
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  height: 150px;
   padding: 25px 20px;
   position: relative;
-  width: 90px;
+  min-width: 330px;
 
   button {
     background-color: transparent;

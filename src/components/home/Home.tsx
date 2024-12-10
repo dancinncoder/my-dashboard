@@ -9,7 +9,7 @@ import SubNav from "./Memo";
 const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   padding: 30px;
 `;
 
@@ -27,10 +27,10 @@ function Home() {
   return (
     <HomeContainer>
       <FirstRow>
-        <Weather />
-        <Time />
-        <SubNav />
         <Assistant />
+        <Time />
+        <Weather />
+        <SubNav />
       </FirstRow>
       <SecondRow>
         <TodoBoard />

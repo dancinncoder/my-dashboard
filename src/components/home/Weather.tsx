@@ -7,9 +7,8 @@ const WeatherContainer = styled.div`
   border-radius: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   display: flex;
-  height: 150px;
   padding: 25px;
-  width: 300px;
+  width: 150px;
 `;
 
 function Weather() {
